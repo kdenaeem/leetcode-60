@@ -4,7 +4,6 @@ class Solution(object):
     def isAnagram(self, s, t):
         if (len(s) != len(t)):
             return False
-        print(s[::-1])
         set1 = set()
         for char in s:
             set1.add(char)
