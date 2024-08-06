@@ -3,13 +3,10 @@ from collections import defaultdict
 # given an Array string str, group the anagrams together
 # sliding window two for loops and
 # 
-# all anagrams have the same length
-# Use a python dictionary where the keys are sorted strings and the values is the list of all the original strings 
-# that when sorted are the key
-# this allows you to do in 1 pass
-# this solution uses defaultdict because defaultdict allows you to specify the default value
-# when a key has no value
-#  
+# using a default dict
+# join the characters in alphabetical order
+# use this as a key
+# then append the words to the key that match it
 class Solution(object):
         
         def groupAnagram(self, strs):
