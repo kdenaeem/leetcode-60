@@ -14,3 +14,12 @@ And then Right to Left
             res[i] = res[i] * postfix
             postfix = postfix * nums[i]
 ```
+
+using 
+```python
+while (n + counter) ..:
+  country += 1
+  ```
+  is a way to lock into a sequnce in a list
+  you can do a for loop and then lock in
+
