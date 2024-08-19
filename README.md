@@ -23,3 +23,6 @@ while (n + counter) ..:
   is a way to lock into a sequnce in a list
   you can do a for loop and then lock in
 
+Stacks
+You can implement a stack using a linked list or an array. 
+In python, we will use an array which is built like a stack already
