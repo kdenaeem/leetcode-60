@@ -1,5 +1,6 @@
 # we will be using the bucket sort for this problem
-# we need a dictionary and a list 
+# 
+# list 
 # this list index will store the number of occurences 
 # and the list values will store the actual value
 # first we will create the dictionary using the key as the 
@@ -30,8 +31,4 @@ class Solution:
             for j in freq[i]:
                 res.append(j)
                 if len(res) == k:
-                    return res
-
-
-        
-        
+                    return res   
